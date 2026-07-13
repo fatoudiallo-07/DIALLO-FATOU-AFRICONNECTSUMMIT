@@ -1,0 +1,57 @@
+
+* {
+    margin: 0; /* Supprime les marges  du navigateur */
+    padding:0; /* Supprime les espacements internes*/
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;700&family=Manrope:wght@400;700&display=swap');
+
+:root{
+   --color-primary:#ffff;
+    --color-secondary: #1E6BD6;
+    --color-TREE:#12897d;
+    --color-text-secondary: rgba(0, 0, 0, 0.842);
+    --display: flex;
+    --justify-content: space-between;
+
+}
+
+[data-theme="dark"]{
+      --color-primary:#171d25;
+    --color-secondary:#12171e ;
+    --color-TREE:#12897d;
+   --color-text: #ffffff;
+   --color-dark:#1E6BD6;
+
+   
+   
+ 
+
+}
+
+.headerr{
+    display: var(--display);
+    justify-content: space-between;
+   
+
+   
+    
+}
+.navbar{
+    width: 500px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+   
+}
+.logo{
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.margin{
+    margin-bottom: 40px;
+   
+}
